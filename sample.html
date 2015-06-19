@@ -1,0 +1,143 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	
+<body>
+<h1 style="background-color:#E6E6FA;">ELMIS DATA ENTRY FORMS</h1>
+
+<table>
+    <tr>
+        <td><a href="receive.php">Receive Package</a>  &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp;</td>
+        <td><a href="prepare.php">Prepare package</a> &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp;</td>
+        <td><a href="stock.php">Stock Items</a> &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp;</td>
+        <td><a href="login.php">Logout</a></td>
+    </tr>
+</table>
+<section>
+
+
+<section id="package_arrival_1">
+	<h1>Package Arrival</h1>
+<table>
+	<tr>
+		<td>Scan the SSCC</td>
+		<td><input type="text" name="" id=""/></td>
+		<td><input type="submit" value="Scan"  id="scan_sscc"/></td>
+	</tr>
+	
+</table>
+
+</section>
+<section id="package_arrival_2">
+	<h1>Package Arrival</h1>
+<table>
+	<tr>
+		<td>Receiving Package With SSCC:<span id="sscc_number">0987626723633</span></td>
+		
+		<td><input type="submit" value="cancel"  id="cancel"/></td>
+	</tr>	
+</table>
+
+<table>
+	<tr>
+		<td>Scan the SSCC</td>
+		<td><input type="submit" value="Scan"  id="scan_sscc"/></td>
+	</tr>
+	<tr>
+		<td>Package sent On: <span id="sent_date"></span></td>
+		<td><input type="text" name="" id="lot_number"/></td>
+		<td><input type="submit" value="Scan"  id="scan_lotnumber"/></td>
+	</tr>
+	
+</table>
+
+</section>
+
+<section id="package_arrival_3">
+	<h1>Package Arrival</h1>
+<table>
+	<tr>
+		<td>Receiving Package With SSCC:<span id="sscc_number">0987626723633</span></td>
+		
+		<td><input type="submit" value="cancel"  id="cancel"/></td>
+	</tr>	
+</table>
+
+<table border="1" cellspacing="0" cellpadding="0">
+	<thead>
+	<tr><th>GTN</th><th>Description</th><th>Manufacture</th><th>Lot</th><th>Expiry</th><th>Vials</th><th>Boxes</th><th>Doses</th></tr>
+	</thead>
+	<tr>
+		<td>1234454656</td>
+		<td>PVC 13</td>
+		<td>pitfizer</td>
+		<td>j943111</td>
+		<td>2017-02-28</td>
+		<td>608000</td>
+		<td>12160</td>
+		<td>608000</td>
+	</tr>
+</table>
+
+<table>
+	<tr>
+		<td>Quantity Okay</td>
+		<td>Physical Damage</td>
+		<td>VVM Status</td>
+		<td>Temp moniotrs Status</td>
+		<td></td>
+		<td></td>		
+		<td></td>
+	</tr>	
+	<tr>
+		<td><select><option>1</option><option>2</option></select></td>	
+		<td><select><option>1</option><option>2</option></select></td>	
+		<td><select><option>1</option><option>2</option></select></td>	
+		<td><select><option>1</option><option>2</option></select></td>	
+		<td><input type="submit" value="Submit"  id="cancel"/></td>
+		<td><input type="button" value="cancel"  id="cancel"/></td>
+	</tr>	
+</table>
+<table>
+	<tr>
+		<td>Comments and Observations</td>
+	</tr>	
+	<tr>
+		<td><textarea></textarea></td>
+	</tr>	
+</table>
+
+</section>
+
+<section id="send_package">
+	<h1>Send Package</h1>
+<table  cellspacing="0" cellpadding="0">
+	<thead>
+	<tr><th></th><th>Description</th><th>Target Population</th><th>Expected births</th><th>Expected pregnancies</th><th>Surviving infants</th><th>Enter Lot Number</th><th>Doses</th></tr>
+	</thead>
+	<tr>
+		<td>
+			
+			</td>
+		<td>PVC 13</td>
+		<td>pitfizer</td>
+		<td>j943111</td>
+		<td>2017-02-28</td>
+		<td>608000</td>
+		<td>12160</td>
+		<td>
+		<table><tr><td><input type="text" name=""></td><td><input type="submit"></td></tr></table>
+		</td>
+	</tr>
+</table>
+
+</section>
+</section>
+
+
+<footer>
+Copyright company
+</footer>
+
+</body>
+</html>
